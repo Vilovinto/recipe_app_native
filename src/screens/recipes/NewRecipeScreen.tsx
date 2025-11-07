@@ -26,8 +26,6 @@ import { CATEGORIES, CUISINES } from '../../constants/recipes';
 type NewRecipeScreenRouteProp = RouteProp<RootStackParamList, 'NewRecipe'>;
 type NewRecipeScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'NewRecipe'>;
 
-// moved to constants
-
 export const NewRecipeScreen: React.FC = () => {
   const route = useRoute<NewRecipeScreenRouteProp>();
   const navigation = useNavigation<NewRecipeScreenNavigationProp>();
